@@ -1,10 +1,10 @@
 // const contentful = require("contentful");
 import * as contentful from 'contentful';
 
-let accessToken = process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN
+let accessToken = process.env.CONTENTFUL_ACCESS_TOKEN
 
 // if (process.env.NODE_ENV !== 'production') {
-//   accessToken = process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN
+//   accessToken = process.env.CONTENTFUL_ACCESS_TOKEN
 // }
 
 export default contentful.createClient({
