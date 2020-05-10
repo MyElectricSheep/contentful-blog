@@ -7,8 +7,6 @@ let accessToken = process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN
 //   accessToken = process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN
 // }
 
-console.log(process.env)
-
 export default contentful.createClient({
   space: "n6dovmdnj5ms",
   environment: "master", // defaults to 'master' if not set
